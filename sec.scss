@@ -37,7 +37,7 @@ $vandyColor: #866d4b;
 //@each $winnerBackgroundColor in $winnerBackgroundColors {
 
 .image {
-    margin-left: 10rem;
+    margin-left: 15rem;
     opacity: 25%;
     
 }
@@ -45,15 +45,13 @@ $vandyColor: #866d4b;
 .gameNum {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     background: $date-color;
-    margin-right: 57rem;
+    padding: 3px;
+    margin-right: 50rem;
     border: solid whitesmoke;
     text-align: center;
     color: $date-background-color;
-    font-size: 1.2rem;
-    font: 100% $font-stack-700;
-
-    
-
+    font-size: 1.3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 
@@ -61,9 +59,6 @@ $vandyColor: #866d4b;
     display: grid;
     grid-template-columns: 20%;
     grid-auto-flow: column;
-    
-    
-    
     
 }
 
@@ -76,7 +71,7 @@ $vandyColor: #866d4b;
     text-align: center;
     align-content: center;
     margin-right: 50rem;
-    font: 100% $font-stack-700;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border: solid whitesmoke;
     background-color: $date-color;
 }
@@ -85,9 +80,9 @@ $vandyColor: #866d4b;
 
 .date {
     background-color: $date-background-color;
-    font: 100% $font-stack-700;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: $date-color;
     padding-top: 0.8em;
     padding-bottom: 0.8;
@@ -97,7 +92,7 @@ $vandyColor: #866d4b;
     margin-top: 0em;
     margin-bottom: 1.6em;
     border: solid whitesmoke;
-    flex: 0 1 24%;
+
     
 }
 
@@ -105,6 +100,8 @@ $vandyColor: #866d4b;
     color: $date-color;
     background: $date-background-color;
     font-size: 1.2rem;
+    border-top: double  whitesmoke;
+    border-bottom: double whitesmoke;
     
 }
 
@@ -112,12 +109,9 @@ $vandyColor: #866d4b;
     color: $date-color;
     background: $date-background-color;
     font-size: 1.2rem;
+    border-top: double  whitesmoke;
+    border-bottom: double whitesmoke;
     
 }
-
-.rightColumn {
-    align-content: right;
-  }
-
 
 

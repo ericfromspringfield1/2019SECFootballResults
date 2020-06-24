@@ -61,8 +61,6 @@ fetch("results.json")
      <p class=${"winner"}> ${gameObj.Winner} ${gameObj.Pts} </p>
      <p class=${"loser"}>${gameObj.Loser} ${gameObj.Pts__1}</p>
      </div>
-     <div class=${"rightColumn"}>
-     </div>
      </container>
      
      
@@ -70,14 +68,12 @@ fetch("results.json")
      `;
     };
     
-   
     
-    
-              data.forEach((gameObj) => {
-                resultsString = resultsHtmlRepresentation(gameObj);
-                renderToDom(resultsString);
-              });
-            })
+          data.forEach((gameObj) => {
+            resultsString = resultsHtmlRepresentation(gameObj);
+            renderToDom(resultsString);
+          });
+        })
               
               
               
