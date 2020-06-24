@@ -1,0 +1,71 @@
+.image {
+  margin-left: 10rem;
+  opacity: 25%;
+}
+
+.gameNum {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background: #f3c246;
+  margin-right: 57rem;
+  border: solid whitesmoke;
+  text-align: center;
+  color: #14213d;
+  font-size: 1.2rem;
+  font: 100% "Turret Road", cursive;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 20%;
+  grid-auto-flow: column;
+}
+
+.result {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  /* 5px rounded corners */
+  margin-bottom: 2em;
+  text-align: center;
+  align-content: center;
+  margin-right: 50rem;
+  font: 100% "Turret Road", cursive;
+  border: solid whitesmoke;
+  background-color: #f3c246;
+}
+
+.date {
+  background-color: #14213d;
+  font: 100% "Turret Road", cursive;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #f3c246;
+  padding-top: 0.8em;
+  padding-bottom: 0.8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  /* 5px rounded corners */
+  margin-top: 0em;
+  margin-bottom: 1.6em;
+  border: solid whitesmoke;
+  flex: 0 1 24%;
+}
+
+.winner {
+  color: #f3c246;
+  background: #14213d;
+  font-size: 1.2rem;
+}
+
+.loser {
+  color: #f3c246;
+  background: #14213d;
+  font-size: 1.2rem;
+}
+
+.rightColumn {
+  align-content: right;
+}
+
+/*# sourceMappingURL=sec.css.map */
